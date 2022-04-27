@@ -1,0 +1,106 @@
+footer {
+  background-color: #F54746;
+  padding: 120px;
+}
+
+#roadtrip {
+    background-image: url(../IMG/martin-kallur-ig-mkallur-l4m_o4aFOn8-unsplash.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mountain {
+  background-image: url(../IMG/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#river {
+  background-image: url(../IMG/kazuend-cCthPLHmrzI-unsplash.jpg);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#beach {
+  background-image: url(../IMG/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#space {
+  background-image: url(../IMG/aldebaran-s-uXchDIKs4qI-unsplash.jpg);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1text {
+    font-family: lobster;
+    margin-bottom: 25%;
+}
+
+.mtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  float: right;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
